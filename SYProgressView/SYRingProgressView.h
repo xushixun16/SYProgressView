@@ -28,5 +28,6 @@
 
 /// 环形拐点样式（直角，或圆角；默认直角）
 @property (nonatomic, assign) BOOL lineRound;
-
+// 修改progressColor，调用generateProgressColor，随时修改颜色
+- (void)generateProgressColor;
 @end
